@@ -23,7 +23,7 @@ ms-fake-uno:
     env:
       enabled: true
       data:
-        APP_MODE: uno
+        APP_MODE: unox
         LOG_LEVEL: debug
 
 ms-fake-dos:
