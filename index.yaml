@@ -3,6 +3,27 @@ entries:
   atm:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-07-16T11:25:40.478575523Z"
+    dependencies:
+    - alias: ms-fake-uno
+      condition: global.ms-fake-uno.enabled
+      name: chart-base
+      repository: https://hugorganization.github.io/chart_base
+      version: 0.2.0
+    - alias: ms-fake-dos
+      condition: global.ms-fake-dos.enabled
+      name: chart-base
+      repository: https://hugorganization.github.io/chart_base
+      version: 0.2.0
+    description: Umbrella que agrupa microservicios basados en chart-base
+    digest: 1471c4f8a12bdd7cd0a9f332d9f0654f0a2d798ec7ecd079977d481afe2893b2
+    name: atm
+    type: application
+    urls:
+    - https://github.com/hugorganization/charts/releases/download/atm-0.2.0/atm-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-07-16T10:46:47.87163056Z"
     dependencies:
     - alias: ms-fake-uno
@@ -44,4 +65,4 @@ entries:
     urls:
     - https://github.com/hugorganization/charts/releases/download/vnd-0.1.0/vnd-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-16T10:46:48.051080941Z"
+generated: "2026-07-16T11:25:40.478592876Z"
