@@ -16,7 +16,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-file: release-please-config.json
-          manifest-file: .release-please-manifest.json
+          manifest-file: ..release-please-manifest.json
   publish:
     runs-on: ubuntu-22.04
     permissions:
@@ -35,6 +35,7 @@ jobs:
 
       - name: Build chart dependencies
         run: |
+          helm repo add chart-base https://hugorganization.github.io/chart_base
           for chart in umbrellas/*/; do
             helm dependency build "$chart"
           done
