@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "helm",
+  "skip-github-release": true,
+  "include-v-in-tag": false,
+  "tag-separator": "-",
+  "packages": {
+    "umbrellas/atm": {
+      "component": "atm",
+      "package-name": "atm"
+    },
+    "umbrellas/vnd": {
+      "component": "vnd",
+      "package-name": "vnd"
+    }
+  }
+}

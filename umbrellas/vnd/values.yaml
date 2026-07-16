@@ -1,0 +1,42 @@
+global:
+  ms-fake-uno:
+    enabled: true
+  ms-fake-dos:
+    enabled: true
+
+ms-fake-uno:
+  externalSecret:
+    enabled: true
+    secretStoreRef:
+      name: floci-secretsmanager
+    data:
+      - secretKey: DB_PASSWORD
+        remoteRef:
+          key: prod/app/db
+          property: password
+  image:
+    repository: nginx
+    tag: "1.30.4"
+  service:
+    port: 80
+  config:
+    env:
+      enabled: true
+      data:
+        APP_MODE: uno
+        LOG_LEVEL: debug
+
+ms-fake-dos:
+  image:
+    repository: nginx
+    tag: "1.30.4"
+  service:
+    port: 8080
+  config:
+    env:
+      enabled: true
+      data:
+        APP_MODE: dos
+        LOG_LEVEL: info
+  externalSecret:
+    enabled: false
