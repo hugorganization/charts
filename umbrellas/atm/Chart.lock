@@ -1,9 +1,9 @@
 dependencies:
 - name: chart-base
   repository: https://hugorganization.github.io/chart_base
-  version: 0.2.0
+  version: 0.3.0
 - name: chart-base
   repository: https://hugorganization.github.io/chart_base
-  version: 0.2.0
-digest: sha256:5edfa566bd3ba8a965e4cef8575419c48ec6cfd8fe1fb987f6f03beb7e4252c9
-generated: "2026-07-16T11:46:15.803302+02:00"
+  version: 0.3.0
+digest: sha256:e85b0519accdaa36218f167e8eca0eef13aa3b56984bba398acb31c1907187c4
+generated: "2026-07-17T12:56:03.490862+02:00"
