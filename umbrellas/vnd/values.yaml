@@ -14,11 +14,9 @@ ms-fake-uno:
         remoteRef:
           key: prod/app/db
           property: password
-  image:
-    repository: nginx
-    tag: "1.30.4"
   service:
     port: 80
+    targetPort: 80
   config:
     env:
       enabled: true
@@ -27,9 +25,6 @@ ms-fake-uno:
         LOG_LEVEL: debug
 
 ms-fake-dos:
-  image:
-    repository: nginx
-    tag: "1.30.4"
   service:
     port: 8080
   config:
