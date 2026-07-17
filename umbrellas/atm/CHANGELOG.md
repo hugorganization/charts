@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/hugorganization/charts/compare/atm-0.2.0...atm-0.3.0) (2026-07-17)
+
+
+### Features
+
+* bump chart-base to 0.3.0 en atm y configurar targetPort ([a1f4608](https://github.com/hugorganization/charts/commit/a1f4608897182c107997cdb060c971dd15846ffb))
+
 ## [0.2.0](https://github.com/hugorganization/charts/compare/atm-0.1.0...atm-0.2.0) (2026-07-16)
 
 
