@@ -14,7 +14,7 @@ ms-fake-uno:
         remoteRef:
           key: prod/app/db
           property: password
-  service:
+  service: #comentario para el commit
     port: 80
     targetPort: 80
   config:
