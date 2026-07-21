@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/hugorganization/charts/compare/atm-0.3.0...atm-0.4.0) (2026-07-21)
+
+
+### Features
+
+* test push for a new version ([0fdba46](https://github.com/hugorganization/charts/commit/0fdba46959f3bea72c215e21fa20fb7d5cdd7453))
+
 ## [0.3.0](https://github.com/hugorganization/charts/compare/atm-0.2.0...atm-0.3.0) (2026-07-17)
 
 
