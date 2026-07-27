@@ -3,6 +3,8 @@ global:
     enabled: true
   ms-fake-dos:
     enabled: true
+  ms-fake-tres:
+    enabled: true
 
 ms-fake-uno:
   externalSecret:
@@ -32,6 +34,18 @@ ms-fake-dos:
       enabled: true
       data:
         APP_MODE: dos
+        LOG_LEVEL: info
+  externalSecret:
+    enabled: false
+
+ms-fake-tres:
+  service:
+    port: 8080
+  config:
+    env:
+      enabled: true
+      data:
+        APP_MODE: tres
         LOG_LEVEL: info
   externalSecret:
     enabled: false
