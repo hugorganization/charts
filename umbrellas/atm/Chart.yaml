@@ -18,6 +18,6 @@ dependencies:
     condition: global.ms-fake-dos.enabled
   - name: chart-base
     alias: ms-fake-tres
-    version: 0.1.0
+    version: 0.3.0
     repository: https://hugorganization.github.io/chart_base
     condition: global.ms-fake-tres.enabled
