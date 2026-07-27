@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/hugorganization/charts/compare/atm-0.4.0...atm-0.5.0) (2026-07-27)
+
+
+### Features
+
+* add ms-fake-tres ms ([848da97](https://github.com/hugorganization/charts/commit/848da9751e27cf61137e35b4db288ed33286cdfe))
+
 ## [0.4.0](https://github.com/hugorganization/charts/compare/atm-0.3.0...atm-0.4.0) (2026-07-21)
 
 
